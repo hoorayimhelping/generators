@@ -6,7 +6,7 @@ We use [yeoman](http://yeoman.io/) to quickly scaffold repetitive boilerplate co
 
 ## Installing A Generator
 
-Each directory in this project is essentially an uncompressed npm package. To make a source directory act like an npm package, change to directory of the generator your want to use and tell npm to create a global symlink to that package:
+Each directory in this project is essentially an uncompressed npm package. To make a source directory act like an npm package, change to directory of the generator you want to use and tell npm to create a global symlink to that package:
 
 ```bash
 git clone git@github.com:quartethealth/generators.git
