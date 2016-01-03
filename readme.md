@@ -22,7 +22,7 @@ This is analogous to running `npm install -g generator-bff`
 Now that we've installed the bff generator, let's run it to build a web app. Create a directory of the name of the app you want, then run the generator:
 
 ```bash
-mkdir bh-bff
+mkdir ~/Development/bh-bff
 cd bh-bff
 yo bff [--skip-install]
 ```
