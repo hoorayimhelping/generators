@@ -1,0 +1,30 @@
+{
+  "name": "generator-bff",
+  "version": "1.0.0",
+  "description": "Generate a Producution-Ready Backend For Frontend express.js server",
+  "author": "Bucky Schwarz",
+  "files": [
+    "generators/app",
+    "generators/rest",
+    "generators/test"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "yeoman-generator",
+    "bff",
+    "backend for frontend",
+    "express",
+    "middleware"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.22.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^4.1.6",
+    "eslint": "^1.10.3"
+  },
+  "scripts": {
+    "lint": "eslint generators/**/*.js",
+    "test": "mocha"
+  }
+}

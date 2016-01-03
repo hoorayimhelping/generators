@@ -1,0 +1,5 @@
+--compilers js:babel/register
+--recursive
+--reporter list
+--require ./test/environment.js
+--ui bdd
