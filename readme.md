@@ -23,7 +23,7 @@ Now that we've installed the bff generator, let's run it to build a web app. Cre
 
 ```bash
 mkdir ~/Development/bh-bff
-cd bh-bff
+cd ~/Development/bh-bff
 yo bff [--skip-install]
 ```
 Follow the on-screen instructions to name generate the bff. The generator creates a number of files, including a `package.json` file with some pre-filled dependencies and a basic directory structure and sets up an express server to handle requests to /.
