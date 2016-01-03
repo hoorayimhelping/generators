@@ -27,3 +27,7 @@ cd ~/Development/bh-bff
 yo bff [--skip-install]
 ```
 Follow the on-screen instructions to generate the bff. The generator creates a number of files, including a `package.json` file with some pre-filled dependencies and a basic directory structure and sets up an express server, including running `npm install` to handle requests to / at localhost on the port you specify.
+
+## Writing Your Own Generator
+
+http://yeoman.io/authoring/index.html
