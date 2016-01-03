@@ -26,7 +26,7 @@ module.exports = generators.Base.extend({
       type: 'input',
       name: 'name',
       message: "The name of your project. Used for configuration",
-      default: this.appname.replace(/\s+/g, '-')
+      default: this.appname.replace(/\s+/g, '-') // yeoman makes directories with dashes 'user friendly' by replacing them with spaces which screws up literally everything
     },
     {
       type: 'input',
