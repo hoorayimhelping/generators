@@ -26,7 +26,7 @@ module.exports = generators.Base.extend({
       type: 'input',
       name: 'name',
       message: "The name of your project. Used for configuration",
-      default: this.appname
+      default: this.appname.replace(/\s+/g, '-')
     },
     {
       type: 'input',
