@@ -1,5 +1,7 @@
 # BFF Generator
 
+[Backend For Frontend](https://www.thoughtworks.com/radar/techniques/bff-backend-for-frontends)
+
 ## Installing A Generator
 
 To make a source directory act like an npm package, change to directory of the generator your want to use and tell npm to create a global symlink to that package:
