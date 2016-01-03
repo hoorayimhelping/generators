@@ -4,9 +4,7 @@
   "description": "Generate a Producution-Ready Backend For Frontend express.js server",
   "author": "Bucky Schwarz",
   "files": [
-    "generators/app",
-    "generators/rest",
-    "generators/test"
+    "generators/app"
   ],
   "license": "MIT",
   "keywords": [
