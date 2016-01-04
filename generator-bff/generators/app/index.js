@@ -52,15 +52,13 @@ module.exports = generators.Base.extend({
     this.template('package', 'package.json', { name: this.appname, description: this.description, port: this.port });
 
     this.composeWith('config');
+    this.composeWith('test');
 
     this.template('entrypoint.js', 'entrypoint.js',{ name: this.appname, port: this.port });
     this.template('src/server.js', 'src/server.js', { name: this.appname });
 
     this.template('src/log/index.js', 'src/log/index.js');
     this.template('src/middleware/index.js', 'src/middleware/index.js');
-
-    this.template('test/environment.js', 'test/environment.js');
-    this.template('test/mocha.opts', 'test/mocha.opts');
   },
 
   installing: function() {

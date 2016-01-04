@@ -1,7 +1,7 @@
 {
-  "name": "generator-bff",
+  "name": "generator-test",
   "version": "1.0.0",
-  "description": "Generate a Producution-Ready Backend For Frontend express.js server",
+  "description": "Generate the test setup for a common setup",
   "author": "Bucky Schwarz",
   "repository": "git@github.com:quartethealth/generators.git",
   "files": [
@@ -10,10 +10,7 @@
   "license": "MIT",
   "keywords": [
     "yeoman-generator",
-    "bff",
-    "backend for frontend",
-    "express",
-    "middleware"
+    "configs"
   ],
   "dependencies": {
     "yeoman-generator": "^0.22.2"
