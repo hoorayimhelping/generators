@@ -50,9 +50,8 @@ module.exports = generators.Base.extend({
 
   writing: function () {
     this.template('package', 'package.json', { name: this.appname, description: this.description, port: this.port });
-    this.template('gitignore', '.gitignore');
-    this.template('editorconfig', '.editorconfig');
-    this.template('eslintrc', '.eslintrc');
+
+    this.composeWith('config');
 
     this.template('entrypoint.js', 'entrypoint.js',{ name: this.appname, port: this.port });
     this.template('src/server.js', 'src/server.js', { name: this.appname });
