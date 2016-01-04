@@ -1,0 +1,21 @@
+{
+  "name": "generator-config",
+  "version": "1.0.0",
+  "description": "Generate the configuration files for a common setup",
+  "author": "Bucky Schwarz",
+  "files": [
+    "generators/app"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "yeoman-generator",
+    "configs"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.22.2"
+  },
+  "scripts": {
+    "lint": "eslint generators/**/*.js",
+    "test": "mocha"
+  }
+}
