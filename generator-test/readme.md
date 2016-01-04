@@ -39,4 +39,6 @@ my-app/
 │   ├── js
 │   └── server.js
 └── test
+    ├── environment.js
+    └── mocha.opts
 ```
