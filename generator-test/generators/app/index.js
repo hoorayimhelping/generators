@@ -30,7 +30,7 @@ module.exports = generators.Base.extend({
       return;
     }
 
-    this.npmInstall(['mocha', 'chai', 'sinon'], { 'saveDev': true });
+    this.npmInstall(['mocha', 'chai', 'sinon', 'sinon-chai'], { 'saveDev': true });
   },
 
   end: function() {
