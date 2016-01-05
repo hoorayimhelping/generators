@@ -38,6 +38,6 @@ module.exports = generators.Base.extend({
   },
 
   end: function() {
-    this.log("Installation has finished!");
+    this.log("Installation for config has finished!");
   }
 });

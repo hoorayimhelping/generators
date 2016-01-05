@@ -30,13 +30,10 @@ module.exports = generators.Base.extend({
       return;
     }
 
-    this.installDependencies({
-      bower: false,
-      npm: true
-    });
+    this.npmInstall(['mocha', 'chai', 'sinon'], { 'saveDev': true });
   },
 
   end: function() {
-    this.log("Installation has finished!");
+    this.log("Installation of test generator has finished!");
   }
 });
