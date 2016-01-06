@@ -5,7 +5,9 @@
   "author": "Bucky Schwarz",
   "repository": "git@github.com:quartethealth/generators.git",
   "files": [
-    "generators/app"
+    "generators/app",
+    "generators/test",
+    "generators/config"
   ],
   "license": "MIT",
   "keywords": [

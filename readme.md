@@ -15,7 +15,7 @@ cd generators
 cd generator-bff
 npm link
 ```
-This is analogous to running `npm install -g generator-bff`
+This is analogous to running `npm install -g generator-bff generator-test generator-config`
 
 ## Scaffolding a BFF
 

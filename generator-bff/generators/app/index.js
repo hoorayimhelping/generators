@@ -81,7 +81,7 @@ module.exports = generators.Base.extend({
       '[Snarky self-aware sign off message #37-A2]'
     ];
 
-    var signOffMessage = signOffMessages[Math.floor(Math.random() * arrayOfCuteSignOffMessagesThatAreFullOfPersonalityIndicatingThisCodeWasWrittenByAHumanWhoIsAUniqueAndLovelySnowflake.length)];
+    var signOffMessage = signOffMessages[Math.floor(Math.random() * signOffMessages.length)];
 
     this.log("Installation has finished! " + signOffMessage + "\nRun `npm start` then `open http://localhost:" + this.port + "/`");
   }

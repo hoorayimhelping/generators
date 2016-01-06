@@ -26,7 +26,7 @@ Running:
 
 ```bash
 cd my-app
-yo config [--skip-install]
+yo config [--skip-install] | yo bff:config
 ```
 
 Will yield

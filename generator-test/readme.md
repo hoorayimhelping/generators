@@ -27,7 +27,7 @@ Running:
 
 ```bash
 cd my-app
-yo test [--skip-install]
+yo test [--skip-install] | yo bff:test
 ```
 
 Will yield

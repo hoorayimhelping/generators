@@ -21,6 +21,7 @@ module.exports = generators.Base.extend({
   },
 
   writing: function () {
+    this.template('package', 'package.json');
     this.template('test/environment.js', 'test/environment.js');
     this.template('test/mocha.opts', 'test/mocha.opts');
   },
@@ -30,7 +31,7 @@ module.exports = generators.Base.extend({
       return;
     }
 
-    this.npmInstall(['mocha', 'chai', 'sinon', 'sinon-chai'], { 'saveDev': true });
+    this.installDependencies({ bower: false });
   },
 
   end: function() {

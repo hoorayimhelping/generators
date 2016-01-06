@@ -4,11 +4,12 @@
 
 ## Installing A Generator
 
-To make a source directory act like an npm package, change to directory of the generator your want to use and tell npm to create a global symlink to that package:
+Yeoman works on npm packages. Until we get our packages out to npm, we can temporarily symlink local npm packages globally to npm. To do that from the generators directory:
 
 ```bash
-cd generator-bff
-npm link
+git clone git@github.com:quartethealth/generators.git
+cd generators
+for directory in ./*/; do (cd "$directory" && npm link); done
 ```
 This is analogous to running `npm install -g generator-bff`
 
