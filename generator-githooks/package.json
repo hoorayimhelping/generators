@@ -1,25 +1,16 @@
 {
-  "name": "generator-bff",
-  "engines": {
-    "node": "~5.4",
-    "npm": "~3.5"
-  },
+  "name": "generator-githooks",
   "version": "1.0.0",
-  "description": "Generate a Producution-Ready Backend For Frontend express.js server",
+  "description": "Generates useful git hooks for a team setup",
   "author": "Bucky Schwarz",
   "repository": "git@github.com:quartethealth/generators.git",
   "files": [
-    "generators/app",
-    "generators/test",
-    "generators/config"
+    "generators/app"
   ],
   "license": "MIT",
   "keywords": [
     "yeoman-generator",
-    "bff",
-    "backend for frontend",
-    "express",
-    "middleware"
+    "configs"
   ],
   "dependencies": {
     "yeoman-generator": "^0.22.2"

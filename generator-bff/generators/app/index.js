@@ -59,6 +59,9 @@ module.exports = generators.Base.extend({
 
     this.template('src/log/index.js', 'src/log/index.js');
     this.template('src/middleware/index.js', 'src/middleware/index.js');
+
+    this.spawnCommand('git', ['init']);
+    this.composeWith('githooks');
   },
 
   installing: function() {
