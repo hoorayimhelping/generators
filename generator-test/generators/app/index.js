@@ -24,6 +24,7 @@ module.exports = generators.Base.extend({
     this.template('package', 'package.json');
     this.template('test/environment.js', 'test/environment.js');
     this.template('test/mocha.opts', 'test/mocha.opts');
+    this.template('test/generator_health_check.js', 'test/generator_health_check.js');
   },
 
   installing: function() {
@@ -35,6 +36,6 @@ module.exports = generators.Base.extend({
   },
 
   end: function() {
-    this.log("Installation of test generator has finished!");
+    this.log("Installation of test generator has finished! Run `npm test` to try it out!");
   }
 });

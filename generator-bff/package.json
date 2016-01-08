@@ -1,5 +1,9 @@
 {
   "name": "generator-bff",
+  "engines": {
+    "node": "~4.2.1",
+    "npm": "~3.5.2"
+  },
   "version": "1.0.0",
   "description": "Generate a Producution-Ready Backend For Frontend express.js server",
   "author": "Bucky Schwarz",
