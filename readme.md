@@ -1,6 +1,6 @@
-# Quartet's Yeoman Generators
+# Yeoman Generators
 
-We use [yeoman](http://yeoman.io/) to quickly scaffold repetitive boilerplate code that is common among all our apps. Yeoman lets us automate away writing the same code over and over again.
+I use [yeoman](http://yeoman.io/) to quickly scaffold repetitive boilerplate.
 
 `npm install -g yo`
 
@@ -9,7 +9,7 @@ We use [yeoman](http://yeoman.io/) to quickly scaffold repetitive boilerplate co
 Each directory in this project is essentially an uncompressed npm package. To make a source directory act like an npm package, change to directory of the generator you want to use and tell npm to create a global symlink to that package:
 
 ```bash
-git clone git@github.com:quartethealth/generators.git
+git clone git@github.com:hoorayimhelping/generators.git
 cd generators
 
 cd generator-bff
@@ -28,6 +28,3 @@ yo bff [--skip-install]
 ```
 Follow the on-screen instructions to generate the bff. The generator creates a number of files, including a `package.json` file with some pre-filled dependencies and a basic directory structure and sets up an express server, including running `npm install` to handle requests to / at localhost on the port you specify.
 
-## Writing Your Own Generator
-
-http://yeoman.io/authoring/index.html

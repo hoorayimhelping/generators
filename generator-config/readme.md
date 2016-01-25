@@ -1,5 +1,5 @@
 # Config Generator
-Install our common configs like `.gitignore`, `.eslintrc` and '.editorconfig'
+Install common configs like `.gitignore`, `.eslintrc` and '.editorconfig'
 
 ## Installing A Generator
 

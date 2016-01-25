@@ -7,7 +7,7 @@
 Yeoman works on npm packages. Until we get our packages out to npm, we can temporarily symlink local npm packages globally to npm. To do that from the generators directory:
 
 ```bash
-git clone git@github.com:quartethealth/generators.git
+git clone git@github.com:hoorayimhelping/generators.git
 cd generators
 for directory in ./*/; do (cd "$directory" && npm link); done
 ```
@@ -20,4 +20,3 @@ mkdir bh-bff
 cd bh-bff
 yo bff [--skip-install]
 ```
-Based on lessons learned and code written for [Halp.](https://github.com/quartethealth/halp)
