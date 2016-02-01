@@ -9,7 +9,8 @@ Yeoman works on npm packages. Until we get our packages out to npm, we can tempo
 ```bash
 git clone git@github.com:hoorayimhelping/generators.git
 cd generators
-for directory in ./*/; do (cd "$directory" && npm link); done
+cd generators-bff
+npm link
 ```
 This is analogous to running `npm install -g generator-bff`
 
